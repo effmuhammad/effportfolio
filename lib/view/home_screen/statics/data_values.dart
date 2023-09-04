@@ -1,26 +1,29 @@
 class DataValues {
   // About App
-  static const String appName = 'Dileepa Bandara';
-  static const String appNameLong = 'dileepabandara.dev';
+  static const String appName = 'Effry Muhammad';
+  static const String appNameLong = 'effmuhammad.github.io';
   static const String appDescription =
-      'Hello there, I\'m Dileepa Bandara. This is my personal website, which contains public information that anyone can find on the internet.';
-  static const String appDeveloper = 'Dileepa Bandara';
+      'Hello there, I\'m Effry Muhammad. This is my personal website, which contains public information that anyone can find on the internet.';
+  static const String appDeveloper = 'Effry Muhammad';
   static const String appPackage = 'dev.dileepabandara.dileepabandara_dev';
   static const String appVersion = '1.1.2';
   static const String appBuildNumber = '1';
 
   // External links
-  static Uri devURL = Uri.parse('https://dileepabandara.dev');
-  static Uri hashnodeURL = Uri.parse('https://hashnode.com/@dileepabandara');
-  static Uri githubURL = Uri.parse('https://github.com/dileepabandara');
-  static Uri linkedinURL = Uri.parse('https://linkedin.com/in/dileepabandara');
-  static Uri twitterURL = Uri.parse('https://twitter.com/_dileepabandara');
-  static Uri youtubeURL = Uri.parse('https://youtube.com/@flutterscope');
-  static Uri telegramURL = Uri.parse('https://t.me/dileepabandara');
-  static Uri facebookURL = Uri.parse('https://facebook.com/0dileepabandara');
-  static Uri instagramURL = Uri.parse('https://instagram.com/_dileepabandara');
+  static Uri devURL = Uri.parse('https://effmuhammad.github.io');
+  // static Uri hashnodeURL = Uri.parse('https://hashnode.com/@dileepabandara');
+  static Uri githubURL = Uri.parse('https://github.com/effmuhammad');
+  static Uri linkedinURL =
+      Uri.parse('https://www.linkedin.com/in/effry-muhammad-228553154');
+  // static Uri twitterURL = Uri.parse('https://twitter.com/_dileepabandara');
+  static Uri youtubeURL = Uri.parse('https://www.youtube.com/@teralooptech');
+  // static Uri telegramURL = Uri.parse('https://t.me/dileepabandara');
+  // static Uri facebookURL = Uri.parse('https://facebook.com/0dileepabandara');
+  static Uri instagramURL = Uri.parse('https://www.instagram.com/eff.muhammad');
   static Uri repoURL =
-      Uri.parse('https://github.com/dileepabandara/dileepabandara.dev');
+      Uri.parse('https://github.com/effmuhammad/effmuhammad.github.io');
+
+  // nanti di hapus
   static Uri biographyURL = Uri.parse('https://biography.dileepabandara.dev');
   static Uri profilesURL = Uri.parse('https://profile.dileepabandara.dev');
   static Uri toolkitURL = Uri.parse('https://toolkit.dileepabandara.dev');
@@ -31,8 +34,8 @@ class DataValues {
 
   // Header
   static const String headerGreetings = 'Hello, World! I\'m';
-  static const String headerName = 'Dileepa Bandara';
-  static const String headerTitle = 'Student | Developer | Volunteer';
+  static const String headerName = 'Effry Muhammad';
+  static const String headerTitle = 'Engineer | Developer | Content Creator';
 
   // Navigation Bar
   static const String navBarAboutMe = 'About Me';
@@ -45,32 +48,30 @@ class DataValues {
   // About me
   static const String aboutMeTitle = 'About Me';
   static const String aboutMeDescription =
-      'This website includes my public details, which anyone can find on the internet. So if you are looking for my personal information, such as my bio, education, experience, and other things that may make you wonder, feel free to scroll up and down to find out about me.';
+      'A Software Engineer who develops Web and Native Apps, Computer Vision, and Predictive Analytics Machine Learning. Interested in the implementation of Artificial Intelligence in various fields. Currently developing Mobile Application using Flutter and medical equipment software with Computer Vision.';
   static const String aboutMeBiographyTitle = 'Biography';
   static const String aboutMeBiographyDescription =
-      'Hi there! I\'m a computing student, solution developer, and community volunteer. I believe that personal growth and learning are essential for success, and I have dedicated my life to achieving both. '
-      'Because of that, I\'m always looking to learn new things and apply them to whatever I\'m doing. '
-      'Technology is always igniting my passion for the positive impact it can have, and I\'m excited to continue growing my skills and knowledge, so I started my career as a techie. '
-      'In addition to my studies, I\'m also passionate about giving back to various communities and helping others, which is why I volunteer my time to help out whenever I can, and I believe that this work is vital in helping to create a better future for everyone.';
+      'Hi there! My name Effry Muhammad, start a career from an Electrical Engineer, now I become a full-time Software Engineer. '
+      'I love to solving real life and business problem with code, first time I found this passion when I see many repetitive works can be done with few line of code in Python, and voila the job is done in seconds. '
+      'Technology is always igniting my passion for the positive impact it can have, and I\'m excited to continue growing my skills and knowledge, so I decided to go through my career as a techie. '
+      'Also I\'m a content creator, I love to share my knowledge and experience with others, You can found my content on my youtube channel: Teraloop. I share about Flutter, Python, and other tech related content.';
   static const String aboutMeFullNameTitle = 'Full Name';
-  static const String aboutMeFullNameDescription =
-      'Jayasundara Mudiyanselage Dileepa Lakmal Bandara';
+  static const String aboutMeFullNameDescription = 'Effry Muhammad';
   static const String aboutMeNwITitle = 'Name with Initials';
   static const String aboutMeNwIDescription = 'J.M. Dileepa Lakmal Bandara';
   static const String aboutMeFnLTitle = 'First and Last Name';
-  static const String aboutMeFnLDescription = 'Dileepa Bandara';
+  static const String aboutMeFnLDescription = 'Effry Muhammad';
   static const String aboutMeDobTitle = 'Birthday';
-  static const String aboutMeDobDescription = 'July 24, 1997';
+  static const String aboutMeDobDescription = '1 August 1998';
   static const String aboutMeLanguageTitle = 'Languages';
-  static const String aboutMeLanguageDescription = 'Sinhala (Native)\n'
+  static const String aboutMeLanguageDescription = 'Bahasa Indonesia (Native)\n'
       'English (Professional)';
   static const String aboutMeNationalityTitle = 'Nationality';
-  static const String aboutMeNationalityDescription = 'Sri Lankan';
+  static const String aboutMeNationalityDescription = 'Indonesia';
   static const String aboutMeGenderTitle = 'Gender';
   static const String aboutMeGenderDescription = 'Male (He/Him/His)';
   static const String aboutMeLocationTitle = 'Current Locations';
-  static const String aboutMeLocationDescription =
-      'Kurunegala, Sri Lanka\nColombo, Sri Lanka';
+  static const String aboutMeLocationDescription = 'Surabaya, Indonesia';
   static const String aboutMeWorkDomainTitle = 'Working Domain';
   static const String aboutMeWorkDomainDescription = 'dileepabandara.dev\n'
       '08:00 - 18:00 (GMT+5:30)';
@@ -85,12 +86,12 @@ class DataValues {
       'I\'ve been a volunteer for many years and have had the opportunity to make a difference in my social and technical communities. Volunteering has allowed me to learn more about the people and things around me while also making a positive difference in the lives of those I serve, and by volunteering, I would love to help others reach their life goals.';
   static const String aboutMeHobbiesTitle = 'Hobbies';
   static const String aboutMeHobbiesDescription = 'Learning New Things\n'
-      'Watching Movies & TV Shows\n'
-      'Listening to Music & Dancing\n'
+      'Badminton\n'
+      'Listening to Music\n'
       'Content Creation';
   static const String aboutMeGoalTitle = 'Goal';
   static const String aboutMeGoalDescription =
-      'To grow personally and professionally, while making a positive impact on the community.';
+      'Grow personally as a useful people and professionally as a Software Engineer.';
   static const String aboutMeBanner = 'You can find my';
   static const String aboutMeBannerTitle = 'public profiles';
   static const String aboutMeBannerWeb =
@@ -137,7 +138,7 @@ class DataValues {
   static const String experienceTitle = 'Experience';
   static const String experienceDescription =
       'Since I started my diploma in 2019, I\'ve started to learn and apply my knowledge in different places. So I started working as a freelance solution developer, and with time, I fell in love with different technologies. I received industrial training in my second year, and now I try out my experience.';
-  static const String experienceOrg1Title = 'Dileepa Bandara';
+  static const String experienceOrg1Title = 'Effry Muhammad';
   static const String experienceOrg1Role = 'Solution Developer';
   static const String experienceOrg1Years = 'June 2019 - June 2022';
   static const String experienceOrg1Vales =
@@ -198,7 +199,7 @@ class DataValues {
 
   // Footer
   static const String copyright =
-      "Copyright ©2023 Dileepa Bandara. All Rights Reserved.";
+      "Copyright ©2023 Effry Muhammad. All Rights Reserved.";
 
   static const String builtWith = "Built with Flutter and GitHub Pages.";
 }

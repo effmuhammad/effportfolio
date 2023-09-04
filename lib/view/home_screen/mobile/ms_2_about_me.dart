@@ -23,26 +23,26 @@ class MS2AboutMe extends StatelessWidget {
             description: DataValues.aboutMeBiographyDescription,
           ),
           const SizedBox(height: 20.0),
-          ButtonTextSmall(
-            text: 'View Full Biography >>',
-            message: DataValues.biographyURL.toString(),
-            url: DataValues.biographyURL,
-          ),
+          // ButtonTextSmall(
+          //   text: 'View Full Biography >>',
+          //   message: DataValues.biographyURL.toString(),
+          //   url: DataValues.biographyURL,
+          // ),
           const SizedBox(height: 30.0),
           TextPairs().type1(
             title: DataValues.aboutMeFullNameTitle,
             description: DataValues.aboutMeFullNameDescription,
           ),
-          const SizedBox(height: 30.0),
-          TextPairs().type1(
-            title: DataValues.aboutMeNwITitle,
-            description: DataValues.aboutMeNwIDescription,
-          ),
-          const SizedBox(height: 30.0),
-          TextPairs().type1(
-            title: DataValues.aboutMeFnLTitle,
-            description: DataValues.aboutMeFnLDescription,
-          ),
+          // const SizedBox(height: 30.0),
+          // TextPairs().type1(
+          //   title: DataValues.aboutMeNwITitle,
+          //   description: DataValues.aboutMeNwIDescription,
+          // ),
+          // const SizedBox(height: 30.0),
+          // TextPairs().type1(
+          //   title: DataValues.aboutMeFnLTitle,
+          //   description: DataValues.aboutMeFnLDescription,
+          // ),
           const SizedBox(height: 30.0),
           TextPairs().type1(
             title: DataValues.aboutMeGenderTitle,
@@ -68,11 +68,11 @@ class MS2AboutMe extends StatelessWidget {
             title: DataValues.aboutMeLocationTitle,
             description: DataValues.aboutMeLocationDescription,
           ),
-          const SizedBox(height: 30.0),
-          TextPairs().type1(
-            title: DataValues.aboutMeWorkDomainTitle,
-            description: DataValues.aboutMeWorkDomainDescription,
-          ),
+          // const SizedBox(height: 30.0),
+          // TextPairs().type1(
+          //   title: DataValues.aboutMeWorkDomainTitle,
+          //   description: DataValues.aboutMeWorkDomainDescription,
+          // ),
           const SizedBox(height: 30.0),
           TextPairs().type1(
             title: DataValues.aboutMeHobbiesTitle,
@@ -139,17 +139,17 @@ class MS2AboutMe extends StatelessWidget {
             bio(context),
             const SizedBox(height: 40.0),
             titles(context),
-            const SizedBox(height: 80.0),
-            Center(
-              child: ContainerBanner().type1(
-                  isDesktop: true,
-                  title1: DataValues.aboutMeBanner,
-                  title2: DataValues.aboutMeBannerTitle,
-                  description: DataValues.aboutMeBannerWeb,
-                  image: 'logo',
-                  message: 'View Profiles',
-                  url: DataValues.profilesURL),
-            ),
+            // const SizedBox(height: 80.0),
+            // Center(
+            //   child: ContainerBanner().type1(
+            //       isDesktop: true,
+            //       title1: DataValues.aboutMeBanner,
+            //       title2: DataValues.aboutMeBannerTitle,
+            //       description: DataValues.aboutMeBannerWeb,
+            //       image: 'logo',
+            //       message: 'View Profiles',
+            //       url: DataValues.profilesURL),
+            // ),
           ],
         ),
       ),

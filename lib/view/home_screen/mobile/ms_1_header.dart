@@ -9,7 +9,11 @@ class MS1Header extends StatelessWidget {
 
   List<Widget> headerData() {
     return [
-      Image.asset('assets/images/logo.png', height: 250.0, width: 250.0),
+      Image.asset(
+        'assets/images/logo.png',
+        height: 250.0,
+        width: 250.0,
+      ),
       const SizedBox(height: 40.0),
       Column(
         children: [
@@ -27,6 +31,29 @@ class MS1Header extends StatelessWidget {
             style: AppThemeData.darkTheme.textTheme.titleLarge,
           ),
           const SizedBox(height: 20.0),
+          SizedBox(
+            height: 50,
+            child: ElevatedButton(
+              onPressed: () => print('CV'),
+              style: ElevatedButton.styleFrom(
+                backgroundColor: AppThemeData.primaryColor,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(
+                    AppThemeData.cornerRadiusCardButton,
+                  ),
+                ),
+              ),
+              child: const Text(
+                'View My CV',
+                style: TextStyle(
+                  fontSize: 16.0,
+                  fontWeight: FontWeight.w500,
+                  color: AppThemeData.textWhite,
+                ),
+              ),
+            ),
+          ),
+          const SizedBox(height: 30.0),
           const SocialProfiles(),
         ],
       ),

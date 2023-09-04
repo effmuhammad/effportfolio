@@ -45,17 +45,17 @@ class MS4Experience extends StatelessWidget {
               url: DataValues.linkedinURL,
               isButtonEnabled: true,
             ),
-            const SizedBox(height: 40.0),
-            Center(
-              child: ContainerBanner().type1(
-                  isDesktop: false,
-                  title1: DataValues.experienceBanner,
-                  title2: DataValues.experienceBannerTitle,
-                  description: DataValues.experienceBannerWeb,
-                  image: 'logo',
-                  message: 'View Toolkit',
-                  url: DataValues.toolkitURL),
-            ),
+            // const SizedBox(height: 40.0),
+            // Center(
+            //   child: ContainerBanner().type1(
+            //       isDesktop: false,
+            //       title1: DataValues.experienceBanner,
+            //       title2: DataValues.experienceBannerTitle,
+            //       description: DataValues.experienceBannerWeb,
+            //       image: 'logo',
+            //       message: 'View Toolkit',
+            //       url: DataValues.toolkitURL),
+            // ),
           ],
         ),
       ),

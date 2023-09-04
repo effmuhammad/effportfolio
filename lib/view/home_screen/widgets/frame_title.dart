@@ -1,4 +1,4 @@
-import 'package:dileepabandara_dev/theme/responsive_screen_provider.dart';
+import 'package:dileepabandara_dev/view/home_screen/theme/responsive_screen_provider.dart';
 import 'package:flutter/material.dart';
 
 class FrameTitle extends StatelessWidget {
