@@ -1,39 +1,34 @@
 {
-    "name": "Dileepa Bandara",
-    "short_name": "Dileepa Bandara",
+    "name": "effportfolio",
+    "short_name": "effportfolio",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#121212",
-    "theme_color": "#019FAB",
-    "description": "Hello there, I'm Dileepa Bandara. This is my personal website, which contains public information that anyone can find on the internet.",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "A new Flutter project.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
         {
-            "src": "icons/favicon.ico",
-            "type": "image/x-icon",
-            "sizes": "16x16 32x32"
-        },
-        {
-            "src": "icons/icon-192.png",
-            "type": "image/png",
-            "sizes": "192x192"
-        },
-        {
-            "src": "icons/icon-512.png",
-            "type": "image/png",
-            "sizes": "512x512"
-        },
-        {
-            "src": "icons/icon-192-maskable.png",
-            "type": "image/png",
+            "src": "icons/Icon-192.png",
             "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
             "purpose": "maskable"
         },
         {
-            "src": "icons/icon-512-maskable.png",
-            "type": "image/png",
+            "src": "icons/Icon-maskable-512.png",
             "sizes": "512x512",
+            "type": "image/png",
             "purpose": "maskable"
         }
     ]

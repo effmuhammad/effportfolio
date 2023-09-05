@@ -75,15 +75,15 @@ class DataValues {
   static const String aboutMeWorkDomainTitle = 'Working Domain';
   static const String aboutMeWorkDomainDescription = 'dileepabandara.dev\n'
       '08:00 - 18:00 (GMT+5:30)';
-  static const String aboutMeStudentTitle = 'Computing Student';
+  static const String aboutMeStudentTitle = 'Software Engineer';
   static const String aboutMeStudentDescription =
       'I study computing technologies as a student by focusing on learning how computer systems work, from the physical (hardware) to the apps and programs (software) that users interact with, and I learn all about critical thinking, problem-solving, and analytical research, regardless of whether I apply all the computing principles to solve problems in scenarios.';
-  static const String aboutMeDeveloperTitle = 'Solution Developer';
+  static const String aboutMeDeveloperTitle = 'Mobile Developer (Flutter)';
   static const String aboutMeDeveloperDescription =
       'I use various tools for creating and implementing innovative solutions to problems in order to accomplish particular goals. I employ a variety of techniques, including software development alongside app development, as well as design and develop structures such as UI/UX, graphics, data management, and other analytical methods with a focus on business points.';
-  static const String aboutMeVolunteerTitle = 'Community Volunteer';
+  static const String aboutMeVolunteerTitle = 'Tech Content Creator';
   static const String aboutMeVolunteerDescription =
-      'I\'ve been a volunteer for many years and have had the opportunity to make a difference in my social and technical communities. Volunteering has allowed me to learn more about the people and things around me while also making a positive difference in the lives of those I serve, and by volunteering, I would love to help others reach their life goals.';
+      'I love to learn and share so I build a Youtube Channel to share my knowledge and experience with others. I share about Flutter, Python, and other tech related content. You can find my channel on youtube: Teraloop. I usually update 1 content per week.';
   static const String aboutMeHobbiesTitle = 'Hobbies';
   static const String aboutMeHobbiesDescription = 'Learning New Things\n'
       'Badminton\n'

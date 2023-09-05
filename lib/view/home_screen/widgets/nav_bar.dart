@@ -85,6 +85,7 @@ class NavBar {
           SelectableText(
             DataValues.headerTitle,
             style: AppThemeData.darkTheme.textTheme.labelLarge,
+            textAlign: TextAlign.center,
           ),
         ],
       );
