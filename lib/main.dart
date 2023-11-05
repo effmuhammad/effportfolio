@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'view/home_screen/home_screen.dart';
-import 'view/home_screen/theme/app_theme.dart';
+import 'view/home_page/home_page.dart';
+import 'view/portfolio_page/portfolio_page.dart';
+import 'view/home_page/theme/app_theme.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,10 +14,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Effry Muhammad',
+      title: 'Effry Muhammad Portfolio',
       debugShowCheckedModeBanner: false,
       theme: AppThemeData.darkTheme,
-      home: const HomePage(),
+      initialRoute: '/',
+      routes: {
+        '/': (context) => const HomePage(),
+        '/portfolio': (context) => const PortfolioPage(),
+      },
     );
   }
 }
